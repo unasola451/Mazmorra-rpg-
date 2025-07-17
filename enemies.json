@@ -1,0 +1,79 @@
+{
+  "Rata Infecta": {
+    "emoji": "🐀",
+    "class": "veloz",
+    "hp": 50,
+    "stamina": 6,
+    "attacks": [
+      { "name": "Mordida Rápida", "damage": 10, "cost": 2, "description": "Inflige daño rápido." },
+      { "name": "Infectar", "damage": 5, "effect": "veneno leve", "cost": 3, "description": "Inflige daño y veneno." }
+    ],
+    "description": "Una criatura rápida y desagradable que vive en las grietas de la mazmorra."
+  },
+  "Esqueleto Armado": {
+    "emoji": "💀",
+    "class": "guerrero",
+    "hp": 90,
+    "stamina": 8,
+    "attacks": [
+      { "name": "Corte de Hueso", "damage": 20, "cost": 3, "description": "Corte poderoso con su arma de hueso." },
+      { "name": "Bloqueo Rígido", "defense": 10, "cost": 2, "description": "Aumenta su defensa." }
+    ],
+    "description": "Un viejo soldado que volvió a levantarse para proteger pasillos olvidados."
+  },
+  "Moco Corrosivo": {
+    "emoji": "🦠",
+    "class": "mago",
+    "hp": 60,
+    "stamina": 10,
+    "attacks": [
+      { "name": "Ácido", "damage": 25, "effect": "rompe defensa", "cost": 5, "description": "Lanza una descarga ácida que ignora la defensa." },
+      { "name": "Burbuja Lenta", "effect": "reduce velocidad", "cost": 3, "description": "Ralentiza al jugador." }
+    ],
+    "description": "Masa amorfa que se desliza y corroe todo lo que toca."
+  },
+  "Murciélago Sombrío": {
+    "emoji": "🦇",
+    "class": "veloz",
+    "hp": 40,
+    "stamina": 8,
+    "attacks": [
+      { "name": "Chillido Cortante", "damage": 12, "effect": "puede confundir", "cost": 3, "description": "Un chillido que puede desorientar." },
+      { "name": "Golpe Volador", "damage": 15, "effect": "esquiva +10%", "cost": 4, "description": "Ataca volando y aumenta su evasión." }
+    ],
+    "description": "Ave nocturna mutada por la oscuridad mágica de la mazmorra."
+  },
+  "Fanático Desquiciado": {
+    "emoji": "🧟‍♂️",
+    "class": "soporte",
+    "hp": 80,
+    "stamina": 7,
+    "attacks": [
+      { "name": "Rezo Prohibido", "heal": 20, "cost": 4, "description": "Se cura a sí mismo." },
+      { "name": "Flagelación", "damage": 18, "selfDamage": 5, "cost": 3, "description": "Se inflige daño para atacar al jugador." }
+    ],
+    "description": "Un humano trastornado por los susurros de los calabozos."
+  },
+  "Guardián de Piedra": {
+    "emoji": "🗿",
+    "class": "tanque",
+    "hp": 120,
+    "stamina": 6,
+    "attacks": [
+      { "name": "Golpe Pesado", "damage": 30, "effect": "lento", "cost": 5, "description": "Un golpe contundente y lento." },
+      { "name": "Muro de Roca", "block": 25, "cost": 3, "description": "Crea una barrera protectora." }
+    ],
+    "description": "Estátuas animadas con magia que solo viven para bloquear el paso."
+  },
+  "Marioneta Olvidada": {
+    "emoji": "🪡",
+    "class": "mágico",
+    "hp": 70,
+    "stamina": 9,
+    "attacks": [
+      { "name": "Fuego Ilusorio", "damage": 15, "duration": "2 turnos", "cost": 4, "description": "Invoca un fuego que quema con el tiempo." },
+      { "name": "Hilos Cortantes", "damage": 10, "effect": "reduce defensa", "cost": 3, "description": "Corta con hilos afilados y debilita la defensa." }
+    ],
+    "description": "Restos de un juguete poseído que vaga entre pasillos."
+    }
+}
